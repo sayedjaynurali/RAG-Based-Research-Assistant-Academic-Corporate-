@@ -1,0 +1,23 @@
+# RAG Research Assistant - Dependencies
+# Install with: pip install -r requirements.txt
+
+# PDF text extraction
+PyMuPDF>=1.23.0
+
+# Vector database (persistent, local)
+chromadb>=0.4.0
+
+# Embeddings (local, free)
+sentence-transformers>=2.6.0
+
+# Progress bars
+tqdm>=4.65.0
+
+# LLM API (if using OpenAI)
+openai>=1.0.0
+
+# HTTP requests (for Ollama)
+requests>=2.31.0
+
+# Optional: numpy (usually installed as a dep)
+numpy>=1.24.0
